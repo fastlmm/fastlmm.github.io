@@ -20,7 +20,7 @@
           <h3 class="text-center">Project Home &amp;
             Bibliography&nbsp;</h3>
           <p class="text-center">Established: October 14, 2006<br>
-            Last Update: August 8, 2026</p>
+            Last Update: November 14, 2026</p>
           <img src="DNA-StrandNIST.1200x400.jpg" alt="" class="img-fluid">
         </div>
       </div>
@@ -33,7 +33,7 @@
         <p class="text-left">FaST-LMM, which stands for Factored
           Spectrally Transformed Linear Mixed Models, is a program for
           performing genome-wide association studies (GWAS) on
-          datasets of all sizes, up to one millions samples. </p>
+          datasets of all sizes, up to one million samples. </p>
         <p class="text-left">Learn more about Python FaST-LMM and
           install from:</p>
         <ul>
@@ -42,11 +42,16 @@
                 href="https://github.com/fastlmm/FaST-LMM">GitHub</a></p>
           </li>
         </ul>
-        <p class="text-left">FaST-LMM runs on Python 3.10, 3.11, 3.12, 3.13, & 3.14.
+        <p class="text-left">FaST-LMM 1.0.0 supports Python 3.11.5 through 3.14, plus core functionality on Python 3.15.
            It runs on Linux (x64 or ARM), Windows (x64), and Mac (x64 or ARM).
           <br>
         </p>
-        <p class="text-left"><em>A older C++ version, including <a
+        <p class="text-left">Install with <code>pip install fastlmm</code>.
+          For HDF5 or BGEN files on Python 3.11.5 through 3.14, install
+          <code>fastlmm[hdf5]</code>, <code>fastlmm[bgen]</code>, or
+          <code>fastlmm[hdf5,bgen]</code>. Python 3.15 is tested without these optional formats.</p>
+        <p class="text-left">See the <a href="https://pypi.org/project/fastlmm/1.0.0/">FaST-LMM 1.0.0 release</a>.</p>
+        <p class="text-left"><em>An older C++ version, including <a
               href="https://www.microsoft.com/en-us/download/details.aspx?id=52614">Windows
 
 
@@ -66,10 +71,15 @@
           also efficiently reads parts of files, reads
           kernel data, standardizes data, manipulates data in-memory, and scales to cluster-sized
           data.</p>
-        <p class="text-left">PySnpTools runs on Python 3.10, 3.11, 3.12, 3.13, & 3.14.
+        <p class="text-left">PySnpTools 1.0.1 supports Python 3.11.5 through 3.14, plus core functionality on Python 3.15.
           It runs on Linux (x64 and ARM) and Windows. On Mac, it runs on both x64 and ARM.<br>
         </p>
-        </p>
+        <p class="text-left">Install with <code>pip install pysnptools</code>.
+          For HDF5 or BGEN files on Python 3.11.5 through 3.14, install
+          <code>pysnptools[hdf5]</code>, <code>pysnptools[bgen]</code>, or
+          <code>pysnptools[hdf5,bgen]</code>. Python 3.15 is tested without these optional formats.</p>
+        <p class="text-left">See the <a href="https://github.com/fastlmm/PySnpTools/releases/tag/v1.0.1">PySnpTools 1.0.1 release notes</a>
+          for download reliability and sample-catalog corrections.</p>
         <p class="text-left">Learn more about PySnpTools and install
           from:</p>
         <ul>
@@ -90,7 +100,7 @@
           <li>
             <p class="text-left">Python: <a href="https://pypi.org/project/bed-reader/">PyPi</a> or <a
                 href="https://github.com/fastlmm/bed-reader">GitHub</a>
-                (Python 3.10, 3.11, 3.12, 3.13, & 3.14. Linux [x64, ARM], Windows [x64], & Mac [x64 and ARM])<br>
+                (Python 3.11 through 3.15. Linux [x64, ARM], Windows [x64, ARM], &amp; Mac [x64 and ARM])<br>
               </p>
           </li>
           <li>
@@ -106,7 +116,7 @@
     <div class="container">
       <div class="row">
         <ul>
-          <li> Email the developers at<a href="mailtto:%20fastlmm-dev@python.org">
+          <li> Email the developers at<a href="mailto:fastlmm-dev@python.org">
               fastlmm-dev@python.org</a>.</li>
           <li>Join the Python user discussion and announcement list <a>via email</a> (or use&nbsp;<a
               href="https://mail.python.org/mailman3/lists/fastlmm-user.python.org">web
